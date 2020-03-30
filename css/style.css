@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+li{
+    list-style: none;
+}
+body{}
+header{
+    background-image: url(../images/mac_banner_final.svg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+    display: block;
+    padding-top: 5px;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+nav .menu{
+    text-decoration: none;
+    padding-top: 15px;
+    display: block;
+    font-size: 35px;
+    font-weight: 900;
+    color: red;
+}
+.heading{text-align: center;margin-bottom: 150px;}
+.heading h1{
+    font-size: 60px;
+    color: #1766c1;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.link-btn{
+
+}
+.link-btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 30px;
+    background: #1766c1;
+    color: white;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    box-shadow: 0px 1px 5px #848484d1;
+}
+.clintlogo-section{}
+.clintlogo-section ul{}
+.clintlogo-section ul li{
+    width: 8%;
+    display: inline-block;
+}
+.clintlogo-section ul li a{}
+.clintlogo-section ul li a img{
+} 
+.feature-section{
+    padding: 100px 0 0 0;
+    background: #F7F7F7;
+}
+.feature-section .feature-box{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.feature-section  h2{
+    color: #1766c1;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.feature-section  p{
+    color: #1766c1;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.feature-section  a{
+    text-decoration: none;
+    color: #ee3c48;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ee3a47a3;
+    display: inline-block;
+}
+.box1{
+    background-image: url(../images/Macdigital+Strategy.png);
+    padding: 80px 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+    
+}
+.box2{
+    background-image: url(../images/Mac+Digital+Content.png);
+    padding: 80px 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+.box3{
+    background-image: url(../images/Macdigital+Training.png);
+    padding: 80px 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+.feature-box div:hover{
+    box-shadow: 0 2px 15px #6765656b;
+}
+/*case studies*/
+.case-studies-section{
+    background: #F7F7F7;
+
+}
+.case-studies-section .head{
+    
+padding: 100px 0;
+}
+.case-studies-section .head h4{
+    text-transform: capitalize;
+    color: #3977C7;
+    margin-left: 90px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.case-studies-section .head span{
+    display: block;
+    background: red;
+    width: 34px;
+    height: 4px;
+    margin-left: 90px;
+}
+.case-studies-section .case-studies{
+    width: 33.33%;
+    float: left;
+    padding: 0 30px;
+}
+.case-studies-section .case{
+    transition: all 0.5s ease;
+    margin: 30px 0;
+}
+
+
+.case-studies-section .case:hover{
+    box-shadow: 0 2px 15px #6765656b;
+}
+.case-studies-section .case img{
+    width: 100%;
+    
+}
+
+.case-studies-section .case .case-content{
+    background: #fff;
+    padding: 30px;
+}
+.case-studies-section .case .case-content h5{
+    font-size: 16px;
+    font-weight: 100;
+    color: #7f7878e8;
+    margin-bottom: 10px;
+}
+.case-studies-section .case .case-content h3{
+    font-size: 22px;
+    color: #2972C5;
+    margin-bottom: 50px;
+}
+.case-studies-section .case .case-content a{
+    text-decoration: none;
+    color: #ee3c48;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ee3a47a3;
+    display: inline-block;
+}
+.more-case{
+    background: #F7F7F7;
+    padding: 60px 0 90px 0;
+}
+.more-case .more{
+
+text-align: center;
+}
+
+
+/*comment-section*/
+.comment{
+
+background: #fff;
+}
+.comment-section{
+
+margin-bottom: 100px;
+
+text-align: center;
+}
+
+.comment-section p{
+    
+font-size: 18px;
+    
+padding: 0 150px;
+    
+margin: 25px 0;
+    
+color: #1565C0;
+    
+line-height: 1.3;
+}
+.comment-section h2{
+    
+font-size: 22px;
+    
+color: #1565C0;
+    
+letter-spacing: 1px;
+    
+word-spacing: 3px;
+}
+.comment span{
+    
+width: 1000px;
+    
+display: inline-block;
+    
+text-align: end;
+    
+overflow: hidden;
+    
+padding-left: 925px;
+    
+margin-top: 30px;
+}
+.comment span .before{
+    
+float: left;
+    
+padding: 0px 10px;
+    
+color: #1565c085;
+    
+font-size: 30px;
+}
+.comment span .after{
+    
+float: left;
+    
+padding: 0px 10px;
+    
+color: #1565C0;
+    
+font-size: 30px;
+}
+
+/*team-member*/
+
+.team-member{
+    background-image: url(../images/mac_banner_final.svg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-member .member-head{
+    padding: 100px 0;
+}
+.team-member .member-head span{
+    display: block;
+    background: red;
+    width: 34px;
+    height: 4px;
+    margin-left: 90px;
+}
+.team-member .member-head h4{
+    text-transform: capitalize;
+    color: #3977C7;
+    margin-left: 90px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.members{}
+.member{
+    width: 25%;
+    float: left;
+    padding: 0 25px;
+}
+.member img{
+    width: 100%;
+}
+
+.member .member-details{
+    background: #ffffff;
+    transition: all 0.3s ease;
+    padding: 25px;
+}
+.member .member-details:hover{
+    box-shadow: 0 2px 15px #6765656b;
+}
+.member .member-details h5{
+    font-size: 16px;
+    color: #1867C1;
+    margin-bottom: 5px;
+}
+.member .member-details h6{
+    font-size: 14px;
+    color: #8ED4F5;
+    margin-bottom: 15px;
+}
+.member .member-details a{
+    text-decoration: none;
+    color: #ee3c48;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ee3a47a3;
+    display: inline-block;
+}
+
+/*message-section*/
+.message{
+    background: #F7F7F7;
+}
+.message-section{
+    padding: 120px;
+    margin: 50px 0;
+}
+.message-section span{
+    width: 28px;
+    height: 5px;
+    background: #EE3D49;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.message-section p{
+    font-size: 35px;
+    color: #EE3D49;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+.message-section p a{
+    color: #EE3D49;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(238, 61, 73, 0.46);
+    padding-bottom: 4px;
+    transition: 0.6s all ease;
+}
+.message-section p a:hover{
+        color: #ff000070;
+        border-bottom: 1px solid #ff37372e;
+}
+footer{
+        margin: 50px 0;
+}
+footer .contact-info{
+    width: 50%;
+    float: left;
+}
+footer .contact-info ul{}
+footer .contact-info ul .address{
+    margin-bottom: 25px;
+}
+footer .contact-info ul li{}
+footer .contact-info ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #3390FF;
+    padding-bottom: 0.5px;
+    border-bottom: 1px solid #3390ffad;
+}
+footer .contact-info span{
+    padding: 100px 0 50px 0;
+    display: inline-block;
+    font-size: 10px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: #3390ff;
+}
+footer .social-link{
+    width: 50%;
+    float: left;
+    padding-left: 235px;
+}
+footer .social-link ul{}
+footer .social-link ul li{}
+footer .social-link ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #3390ff;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #3390ffad;
+}
+footer ul li a{
+    transition: 0.6s all ease;
+}
+footer ul li a:hover{
+    color: #3390ff94;
+    border-bottom: 1px solid rgb(207, 229, 255);
+}
